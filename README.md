@@ -1,16 +1,34 @@
-# veggie_detective
+# 🥦 Veggie Detective
 
-A new Flutter project.
+Veggie Detective is a mobile Flutter app that helps users identify vegetables and display detailed nutritional information using a machine learning model. Built with student learning and healthy living in mind, it classifies vegetables via image recognition and provides key data like vitamins, calories, and more.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 📸 Image-based vegetable classification using Teachable Machine & TFLite
+- 📊 Nutritional facts per 100g (calories, vitamins, fiber, etc.)
+- ✅ Simple, user-friendly interface
+- 📦 Works fully offline (no internet needed after installation)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 How It Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **User takes or uploads a photo**
+2. **Model classifies the vegetable**
+3. **Nutritional data is shown instantly**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 ML Model
+
+- **Platform**: [Teachable Machine](https://teachablemachine.withgoogle.com/)
+- **Format**: TensorFlow Lite (`.tflite`)
+- **Integration**: via `tflite_flutter` package
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Flutter    | Frontend framework |
+| Dart       | Programming language |
+| TFLite     | ML model inference |
+| Teachable Machine | Model training |
+| VS Code    | IDE for development |
+
+## 📷 Screenshots
