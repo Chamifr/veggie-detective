@@ -1,0 +1,17 @@
+final Map<String, String> labelName = {
+  "Bean": "         🥬 Bean",
+  "Bitter Gourd": "         🍈 Bitter Gourd",
+  "Bottle Gourd": "         🥒 Bottle Gourd",
+  "Brinjal": "         🍆 Brinjal",
+  "Broccoli": "         🥦 Broccoli",
+  "Cabbage": "         🥬 Cabbage",
+  "Capsicum": "         🫑 Capsicum",
+  "Carrot": "         🥕 Carrot",
+  "Cauliflower": "         🥦 Cauliflower",
+  "Cucumber": "         🥒 Cucumber",
+  "Papaya": "         🍈 Papaya",
+  "Potato": "         🥔 Potato",
+  "Pumpkin": "         🎃 Pumpkin",
+  "Radish": "         🌰 Radish",
+  "Tomato": "         🍅 Tomato",
+};
